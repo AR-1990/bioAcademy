@@ -13,6 +13,7 @@ use App\Http\Controllers\CatalogController;
 use App\Http\Controllers\PlanVisitController;
 use App\Http\Controllers\SmsController;
 use App\Http\Controllers\FeedbackController;
+use App\Http\Controllers\EbookController;
 
 use Illuminate\Http\Request;
 
@@ -102,9 +103,8 @@ Route::get('/catalog', [CatalogController::class, 'index'])->name('university.ca
 Route::post('/catalog/download', [CatalogController::class, 'download'])->name('university.catalog.download');
 Route::get('/catalog/file', [CatalogController::class, 'file'])->name('university.catalog.file');
 
-Route::get('/ebook', function () {
-    return view('university.ebook');
-})->name('university.ebook');
+Route::get('/ebook', [EbookController::class, 'index'])->name('university.ebook');
+Route::post('/ebook/download', [EbookController::class, 'download'])->name('university.ebook.download');
 
 Route::get('/signup', function () {
     return view('university.signup');
@@ -173,6 +173,8 @@ Route::get('/quiz', [ExamController::class, 'show_quiz'])->name('quiz');
 Route::POST('/submit-quiz',  [ExamController::class, 'submitQuiz'])->name('submit-quiz');
 Route::get('/visits', [PlanVisitController::class,'index'])->name('visits');
 Route::get('/admin/feedbacks', [FeedbackController::class, 'index'])->name('admin.feedbacks');
+Route::get('/admin/ebook-downloads', [EbookController::class, 'adminIndex'])->name('admin.ebook-downloads');
+Route::delete('/admin/ebook-downloads/{ebookDownload}', [EbookController::class, 'destroy'])->name('admin.ebook-downloads.destroy');
 Route::post('/visits/{visit}', [PlanVisitController::class, 'update'])->name('visits.update');
 Route::delete('/visits/{visit}', [PlanVisitController::class, 'destroy'])->name('visits.destroy');
 Route::get('/showStudentsResult/{id}',[ExamController::class,'showStudentsResult'])->name('showStudentsResult');

@@ -68,6 +68,13 @@
                         <span class="sidebar-menu-text">Feedback Form</span>
                     </a>
                 </li>
+
+                <li class="sidebar-menu-item {{ Route::is('admin.ebook-downloads') ? 'active' : '' }}">
+                    <a class="sidebar-menu-button" href="{{ route('admin.ebook-downloads') }}">
+                        <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">picture_as_pdf</span>
+                        <span class="sidebar-menu-text">Ebook Downloads</span>
+                    </a>
+                </li>
                 
                 <li class="sidebar-menu-item {{ Route::is('admin.mass-text') ? 'active' : '' }}">
                     <a class="sidebar-menu-button" href="{{ route('admin.mass-text') }}">

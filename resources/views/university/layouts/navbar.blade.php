@@ -30,6 +30,7 @@
                                 <li><a href="{{ url('/course-certification-examination') }}">Comprehensive Examination & Certification</a></li>
                                 <li><a href="{{ url('/course-fee-structure') }}">Fee Structure</a></li>
                                 <li><a href="{{ url('/course-career-salary') }}">Career & Salary Insights</a></li>
+                                <li><a href="{{ url('/ebook') }}">Ebook</a></li>
                                 <li><a href="{{ url('/course-webinar-archive') }}">Webinar Archive</a></li>
                             </ul>
                         </li>
