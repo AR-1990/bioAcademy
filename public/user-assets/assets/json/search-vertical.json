@@ -1,0 +1,84 @@
+{
+  "navigation": [
+    {
+      "name": "Dashboard",
+      "icon": "tabler-smart-home",
+      "url": "index.php"
+    },
+    {
+      "name": "User Profile",
+      "icon": "tabler-user-circle",
+      "url": "profile.php"
+    },
+    {
+      "name": "Account Settings - Account",
+      "icon": "tabler-user",
+      "url": "account-settings.php"
+    },
+    {
+      "name": "Account Settings - Security",
+      "icon": "tabler-shield-chevron",
+      "url": "account-settings-security.php"
+    },
+    {
+      "name": "Account Settings - Notifications",
+      "icon": "tabler-notification",
+      "url": "account-settings-notifications.php"
+    },
+    {
+      "name": "Account Settings - Connections",
+      "icon": "tabler-link",
+      "url": "account-settings-connections.php"
+    },
+    {
+      "name": "Error",
+      "icon": "tabler-alert-circle",
+      "url": "error.php"
+    },
+    {
+      "name": "Under Maintenance",
+      "icon": "tabler-barrier-block",
+      "url": "under-maintenance.php"
+    },
+    {
+      "name": "Coming Soon",
+      "icon": "tabler-clock",
+      "url": "comingsoon.php"
+    },
+    {
+      "name": "Not Authorized",
+      "icon": "tabler-user-x",
+      "url": "not-authorized.php"
+    },
+    {
+      "name": "Login",
+      "icon": "tabler-login",
+      "url": "login.php"
+    },
+    {
+      "name": "Register",
+      "icon": "tabler-user-plus",
+      "url": "register.php"
+    },
+    {
+      "name": "Verify Email",
+      "icon": "tabler-mail",
+      "url": "verify-email.php"
+    },
+    {
+      "name": "Reset Password",
+      "icon": "tabler-help",
+      "url": "reset-password.php"
+    },
+    {
+      "name": "Forgot Password",
+      "icon": "tabler-question-mark",
+      "url": "forgot-password.php"
+    },
+    {
+      "name": "Two Steps Verification",
+      "icon": "tabler-question-mark",
+      "url": "two-steps.php"
+    }
+  ]
+}

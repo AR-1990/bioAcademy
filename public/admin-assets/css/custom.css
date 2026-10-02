@@ -1,0 +1,20 @@
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3VzdG9tLmNzcyIsInNvdXJjZXMiOlsiY3VzdG9tLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiJ9 */
+
+/*# sourceMappingURL=custom.css.map */
+
+
+/* footer page css */
+
+footer{
+    position: absolute;
+    /* margin-bottom: 0px; */
+}
+.page-link{
+    background-color: #2b2424 !important;
+    color: white !important;
+}
+
+div#div_editor1 {
+    height: 200px;
+}

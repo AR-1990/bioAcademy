@@ -1,0 +1,21 @@
+/* CUSTOM CSS HERE */
+
+.pagetitle {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.pagetitle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pagetitle::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #000000a3;
+}
